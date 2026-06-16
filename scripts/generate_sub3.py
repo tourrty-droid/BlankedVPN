@@ -1,85 +1,71 @@
 #!/usr/bin/env python3
 """
-Генератор sub3.txt с 5 случайными VPN конфигами
-Обновляется каждые 30 минут через GitHub Actions
+Генератор sub3.txt для BlankedVPN
+6 случайных конфигов каждые 30 минут
 """
 
 import requests
 import random
 from datetime import datetime
 
-SOURCE_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"
-OUTPUT_FILE = "sub3.txt"
-NUM_CONFIGS = 5
+URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"
+FILE = "sub3.txt"
+NUM = 6
 
-def fetch_configs(url):
-    """Загружает конфиги из источника"""
+def fetch():
     try:
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
-        print(f"✅ Загружено: {len(response.text)} байт")
-        return response.text
+        r = requests.get(URL, timeout=30)
+        r.raise_for_status()
+        print(f"✅ Загружено: {len(r.text)} байт")
+        return r.text
     except Exception as e:
-        print(f"❌ Ошибка загрузки: {e}")
+        print(f"❌ Ошибка: {e}")
         return None
 
-def parse_configs(content):
-    """Разбирает конфиги по пустым строкам"""
-    if not content:
-        return []
-    
+def parse(text):
     configs = []
-    current = []
-    
-    for line in content.split('\n'):
+    cur = []
+    for line in text.split('\n'):
         if line.strip():
-            current.append(line)
-        elif current:
-            configs.append('\n'.join(current))
-            current = []
-    
-    if current:
-        configs.append('\n'.join(current))
-    
+            cur.append(line)
+        elif cur:
+            configs.append('\n'.join(cur))
+            cur = []
+    if cur:
+        configs.append('\n'.join(cur))
+    print(f"📊 Конфигов: {len(configs)}")
     return configs
 
 def main():
-    print(f"🚀 Генерация sub3.txt [{datetime.now().strftime('%H:%M:%S')}]")
+    print(f"\n🚀 {datetime.now().strftime('%H:%M:%S')}")
     
-    # Загрузка
-    content = fetch_configs(SOURCE_URL)
-    if not content:
-        with open(OUTPUT_FILE, 'w') as f:
+    raw = fetch()
+    if not raw:
+        with open(FILE, 'w') as f:
             f.write("# Ошибка загрузки\n")
         return
     
-    # Парсинг
-    configs = parse_configs(content)
-    print(f"📊 Найдено конфигов: {len(configs)}")
-    
+    configs = parse(raw)
     if not configs:
-        with open(OUTPUT_FILE, 'w') as f:
-            f.write("# Конфиги не найдены\n")
+        with open(FILE, 'w') as f:
+            f.write("# Нет конфигов\n")
         return
     
-    # Выбор случайных
-    selected = random.sample(configs, min(NUM_CONFIGS, len(configs)))
+    selected = random.sample(configs, min(NUM, len(configs)))
     
-    # Формирование файла
-    output = f"""# sub3.txt - VPN конфиги для России
-# Обновлено: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-# Источник: {SOURCE_URL}
-# Выбрано: {len(selected)} из {len(configs)}
+    out = f"""# BlankedVPN - sub3.txt 🇷🇺
+# {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+# Конфигов: {len(selected)} из {len(configs)}
+# Обновление: каждые 30 мин
 # ============================================
 
 """
-    output += '\n\n'.join(selected) + '\n'
+    out += '\n\n'.join(selected) + '\n'
     
-    # Сохранение
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        f.write(output)
+    with open(FILE, 'w', encoding='utf-8') as f:
+        f.write(out)
     
-    print(f"✅ sub3.txt обновлен ({len(selected)} конфигов, {len(output)} байт)")
+    print(f"✅ {FILE} создан | {len(out)} байт")
 
 if __name__ == "__main__":
     main()
