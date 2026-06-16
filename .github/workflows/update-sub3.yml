@@ -1,0 +1,60 @@
+name: Update sub3.txt
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+  push:
+    paths:
+      - '.github/workflows/update-sub3.yml'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    permissions:
+      contents: write
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Generate sub3.txt
+      shell: python
+      run: |
+        import requests, random
+        from datetime import datetime
+        
+        url = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"
+        
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        
+        configs, cur = [], []
+        for line in r.text.split('\n'):
+            if line.strip():
+                cur.append(line)
+            elif cur:
+                configs.append('\n'.join(cur))
+                cur = []
+        if cur:
+            configs.append('\n'.join(cur))
+        
+        selected = random.sample(configs, min(6, len(configs)))
+        
+        output = f"# BlankedVPN\n# {datetime.now()}\n\n" + '\n\n'.join(selected)
+        
+        with open('sub3.txt', 'w', encoding='utf-8') as f:
+            f.write(output)
+        
+        print(f"✅ sub3.txt created with {len(selected)} configs")
+    
+    - name: Push changes
+      run: |
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+        git add sub3.txt
+        git diff --staged --quiet || (git commit -m "🔄 $(date +'%H:%M')" && git push)
