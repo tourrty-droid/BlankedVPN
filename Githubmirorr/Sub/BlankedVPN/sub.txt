@@ -1,9 +1,9 @@
 #profile-title: BlankedVPN
 #profile-update-interval: 1
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
-#subscription-userinfo: upload=0; download=0; total=18446744073709551615; expire=253402214400
+#subscription-userinfo: upload=0; download=0; total=0; expire=253402214400
 
 
-vless://2c5ffa87-54f4-4057-8cd4-2dad3c3d6226@51.250.103.104:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=safari&sni=cdp.x5.ru&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a#🇩🇪 Германия 
-vless://bbcde690-aca4-48dd-8da7-85fbad4b6d99@84.252.131.124:443?encryption=none&fp=chrome&pbk=4Opj8Sbz5aL7S2AXbBNfUuRBfRpdN8nO55WmZsD3IV8&security=reality&serviceName=grpc&sid=edd10b6d4b8f7ce4&sni=api.events.plus.yandex.net&type=grpc#🇷🇺 Россия (Для Ютуба без рекламы)
+vless://4e5017e0-07da-48ef-a882-fa26a845ead6@109.120.188.54:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE&sid=1ca44564cda56661&sni=ads.x5.ru#🇸🇪 Швеция
+vless://bbcde690-aca4-48dd-8da7-85fbad4b6d99@84.252.131.124:443?fp=firefox&pbk=4Opj8Sbz5aL7S2AXbBNfUuRBfRpdN8nO55WmZsD3IV8&security=reality&serviceName=grpc&sid=edd10b6d4b8f7ce4&sni=api.events.plus.yandex.net&type=grpc#🇳🇱 Нидерланды 
 hysteria2://efe3901e-b309-43f3-843a-f4f871670cf3@888275.nl01-cherry.online:8449?insecure=0&sni=sni.nl01-cherry.online#🇳🇱 Нидерланды 
