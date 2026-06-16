@@ -1,7 +1,7 @@
 #profile-title: BlankedVPN
 #profile-update-interval: 1
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
-#subscription-userinfo: upload=0; download=0; total=92301168000000000; expire=253402214400
+#subscription-userinfo: upload=0; download=0; total=18446744073709551615; expire=253402214400
 
 vless://d945d410-9a71-426f-964a-fc37c653a4b5@45.157.233.15:8443?security=reality&sni=avatars.mds.yandex.net&type=grpc&serviceName=grpc-yandex&fp=qq&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=844352756c1fabba#🇩🇪 Германия
 vless://bbcde690-aca4-48dd-8da7-85fbad4b6d99@84.252.131.124:443?fp=firefox&pbk=4Opj8Sbz5aL7S2AXbBNfUuRBfRpdN8nO55WmZsD3IV8&security=reality&serviceName=grpc&sid=edd10b6d4b8f7ce4&sni=api.events.plus.yandex.net&type=grpc#🇳🇱 Нидерланды
