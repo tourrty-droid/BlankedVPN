@@ -6,3 +6,20 @@
 vless://9c387b24-56ea-458d-b113-ab750a4c9b7b@31.76.34.87:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ya.ru&fp=firefox&pbk=9LuMI1vI6vzfZZv-2A5D24YgdvXXTXja2qNtKT-TpBQ&sid=355d76d8fe14a7df&flow=xtls-rprx-vision#🇸🇪 Швеция
 vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.111:8443?encryption=none&security=reality&sni=ams1.fromblancwithlove.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇳🇱 Нидерланды
 hysteria2://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@185.227.108.195:11000?headerType=none&encryption=none&sni=de-node.farnet.top&insecure=0#🇷🇺 Россия (Для Ютуба без рекламы)
+vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.111:8443?encryption=none&security=&sni=ya.ru&insecure=0&allowInsecure=0&type=&headerType=none# Доп. Сервера
+vless://a7896b5b-1c7d-4148-9429-fcdf949137bf@151.101.7.243:80?mode=auto&path=%2F&security=&encryption=none&host=kakapi.global.ssl.fastly.net&type=xhttp#%F0%9F%87%A6%F0%9F%87%B1%20Albania%2C%20Tirana%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://0e72007e-5e69-48af-bc76-2cc0eef522a5@87.58.206.28:443?flow=xtls-rprx-vision&fp=firefox&pbk=ztJq-ujdckOvXgiARRnTean6syVqoBBWw0s5tL5IkhE&security=reality&sni=www.microsoft.com&type=tcp#%F0%9F%87%A9%F0%9F%87%B0%20Denmark%2C%20Viby%20J%20%7C%20%5BBL%5D
+vless://5854d471-23a6-4c97-a398-95f483f885b0@aziz.carderrr.com:44114?type=tcp&security=none&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+vless://b9f33025-9b40-4ece-9a10-85da0f0af052@fin185.alexanderoff.ru:36294?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.102:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.107:8443?security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.114:8443?security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.115:8443?security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.117:8443?security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.118:8443?security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.120:8443?security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.121:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.67:8443?security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.78:8443?security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.84:8443?security=tls&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
+vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.96:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%2C%20Bucharest%20%7C%20%5BBL%5D
