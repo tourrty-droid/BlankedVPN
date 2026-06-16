@@ -1,0 +1,43 @@
+name: Update sub3.txt with Random Configs
+
+on:
+  schedule:
+    # Запуск каждые 30 минут
+    - cron: '*/30 * * * *'
+  workflow_dispatch:  # Ручной запуск
+
+jobs:
+  update-configs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: pip install requests
+    
+    - name: Generate sub3.txt
+      run: python scripts/generate_sub3.py
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        if git diff --quiet sub3.txt; then
+          echo "No changes detected"
+        else
+          git add sub3.txt
+          git commit -m "🔄 Update sub3.txt - $(date +'%Y-%m-%d %H:%M')"
+          git push
+          echo "Changes pushed successfully"
+        fi
