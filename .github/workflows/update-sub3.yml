@@ -1,43 +1,37 @@
-name: Update sub3.txt with Random Configs
+name: Update sub3.txt every 30 min
 
 on:
+  workflow_dispatch:
   schedule:
-    # Запуск каждые 30 минут
     - cron: '*/30 * * * *'
-  workflow_dispatch:  # Ручной запуск
 
 jobs:
-  update-configs:
+  update:
     runs-on: ubuntu-latest
     timeout-minutes: 2
+    permissions:
+      contents: write
     
     steps:
-    - name: Checkout repository
+    - name: Checkout
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
     
-    - name: Install dependencies
+    - name: Install requests
       run: pip install requests
     
     - name: Generate sub3.txt
-      run: python scripts/generate_sub3.py
-    
-    - name: Commit and push changes
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        
-        if git diff --quiet sub3.txt; then
-          echo "No changes detected"
-        else
-          git add sub3.txt
-          git commit -m "🔄 Update sub3.txt - $(date +'%Y-%m-%d %H:%M')"
-          git push
-          echo "Changes pushed successfully"
-        fi
+        cd BlankedVPN
+        python scripts/generate_sub3.py
+    
+    - name: Commit & Push
+      run: |
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+        git add BlankedVPN/sub3.txt
+        git diff --staged --quiet || (git commit -m "🔄 $(date +'%H:%M')" && git push)
