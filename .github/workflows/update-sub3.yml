@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *'
-  push:
-    paths:
-      - '.github/workflows/update-sub3.yml'
 
 jobs:
   update:
@@ -22,9 +19,12 @@ jobs:
       with:
         python-version: '3.11'
     
+    - name: Install requests
+      run: pip install requests
+    
     - name: Generate sub3.txt
-      shell: python
       run: |
+        python << 'PYEOF'
         import requests, random
         from datetime import datetime
         
@@ -51,6 +51,7 @@ jobs:
             f.write(output)
         
         print(f"✅ sub3.txt created with {len(selected)} configs")
+        PYEOF
     
     - name: Push changes
       run: |
