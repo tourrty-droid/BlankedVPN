@@ -1,4 +1,4 @@
-name: Update sub3.txt every 30 min
+name: AUTOUPDATESUB
 
 on:
   workflow_dispatch:
