@@ -1,5 +1,5 @@
 # BlankedVPN
-# 2026-06-16 00:24:35.058248
+# 2026-06-16 00:56:16.218200
 
 # profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
 # profile-update-interval: 1
