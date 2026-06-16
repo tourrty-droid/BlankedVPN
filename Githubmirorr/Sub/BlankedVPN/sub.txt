@@ -4,7 +4,5 @@
 #subscription-userinfo: upload=0; download=0; total=0; expire=253402214400
 
 vless://9c387b24-56ea-458d-b113-ab750a4c9b7b@31.76.34.87:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ya.ru&fp=firefox&pbk=9LuMI1vI6vzfZZv-2A5D24YgdvXXTXja2qNtKT-TpBQ&sid=355d76d8fe14a7df&flow=xtls-rprx-vision#🇸🇪 Швеция
-vless://bbcde690-aca4-48dd-8da7-85fbad4b6d99@84.252.131.124:443?fp=firefox&pbk=4Opj8Sbz5aL7S2AXbBNfUuRBfRpdN8nO55WmZsD3IV8&security=reality&serviceName=grpc&sid=edd10b6d4b8f7ce4&sni=api.events.plus.yandex.net&type=grpc#🇳🇱 Нидерланды 
-hysteria2://efe3901e-b309-43f3-843a-f4f871670cf3@888275.nl01-cherry.online:8449?insecure=0&sni=sni.nl01-cherry.online#🇳🇱 Нидерланды
-hysteria2://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@185.227.108.195:11000?allowInsecure=0&insecure=0&security=tls&sni=de-node.farnet.top#🇷🇺 Россия (Для Ютуба без рекламы)
+vless://ca428a2e-7f82-4030-851b-cab731a5645a@l12.l-itx.info:2053?allowinsecure=0&encryption=none&fp=firefox&host=itx-server.digital&path=%2Fws&security=tls&sni=eh.vk.com&type=ws&allowInsecure=1&insecure=1#🇨🇭 Швейцария
 hysteria2://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@185.227.108.195:11000?headerType=none&encryption=none&sni=de-node.farnet.top&insecure=0#🇷🇺 Россия (Для Ютуба без рекламы)
