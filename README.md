@@ -1,7 +1,7 @@
 # BlankedVPN
 
 <p align="center">
-  <img src="https://i.pinimg.com/1200x/a9/1b/4b/a91b4b7a338ba800d758361200c4f42f.jpg" width="300" alt="Orca">
+  <img src="https://github.com/tourrty-droid/BlankedVPN/blob/main/a91b4b7a338ba800d758361200c4f42f.jpg" width="300" alt="Orca">
 </p>
 
 ---
