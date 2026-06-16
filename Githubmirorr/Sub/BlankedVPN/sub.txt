@@ -3,101 +3,305 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=0; total=18446744073709551615; expire=253402214400
 
-vless://d945d410-9a71-426f-964a-fc37c653a4b5@45.157.233.15:8443?security=reality&sni=avatars.mds.yandex.net&type=grpc&serviceName=grpc-yandex&fp=qq&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&sid=844352756c1fabba#🇩🇪 Германия
-vless://bbcde690-aca4-48dd-8da7-85fbad4b6d99@84.252.131.124:443?fp=firefox&pbk=4Opj8Sbz5aL7S2AXbBNfUuRBfRpdN8nO55WmZsD3IV8&security=reality&serviceName=grpc&sid=edd10b6d4b8f7ce4&sni=api.events.plus.yandex.net&type=grpc#🇳🇱 Нидерланды
-vless://3b7950ed-e076-4a51-8df2-222a88689700@45.197.134.32:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&sni=storage.yandex.net&fp=firefox&pbk=8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc&sid=d037f6f67cc90016#🇷🇺 Россия (Для Ютуба без рекламы)
-[
-  {
-    "protocol": "vless",
-    "tag": "UK-1",
-    "settings": {
-      "vnext": [
-        {
-          "address": "45.157.233.15",
-          "port": 8443,
-          "users": [
-            {
-              "id": "d945d410-9a71-426f-964a-fc37c653a4b5",
-              "encryption": "none"
+{
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "tag": "🇪🇪 Эстония",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.183.170.16",
+            "port": 62800,
+            "users": [
+              {
+                "id": "164592e8-5168-4319-8377-6b832f3125d1",
+                "encryption": "none"
+              }
+            ]
           }
         ]
-      }
-    ]
-  },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "show": false,
-        "fingerprint": "qq",
-        "serverName": "avatars.mds.yandex.net",
-        "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
-        "shortId": "e67fb918ed6b9ffb"
       },
-      "grpcSettings": {
-        "serviceName": "grpc-yandex"
-      }
-    }
-  },
-  {
-    "protocol": "vless",
-    "tag": "NL-1",
-    "settings": {
-      "vnext": [
-        {
-          "address": "84.252.131.124",
-          "port": 443,
-          "users": [
-            {
-              "id": "bbcde690-aca4-48dd-8da7-85fbad4b6d99",
-              "encryption": "none"
-            }
-          ]
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "chrome",
+          "serverName": "yandex.ru",
+          "publicKey": "i3ZLu0BrMnsEuDUgWoceRnaYMzRVphJE0CiPXmEhE3c",
+          "shortId": "63a9b4c563de9906"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc",
+          "multiMode": true
         }
-      ]
+      }
     },
-    "streamSettings": {
-      "network": "grpc",
-      "security": "reality",
-      "realitySettings": {
-        "show": false,
-        "fingerprint": "firefox",
-        "serverName": "api.events.plus.yandex.ru",
-        "publicKey": "4Opj85bz5aL7S2AXbBNfUuRBfRpdN8n055WmZsD3IV8",
-        "shortId": "edd10b6d4b8f7ce4"
+    {
+      "protocol": "vless",
+      "tag": "🇩🇪 Германия",
+      "settings": {
+        "vnext": [
+          {
+            "address": "192.124.181.44",
+            "port": 62800,
+            "users": [
+              {
+                "id": "164592e8-5168-4319-8377-6b832f3125d1",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
       },
-      "grpcSettings": {
-        "serviceName": "grpc"
-      }
-    }
-  },
-  {
-    "protocol": "vless",
-    "tag": "Proxy-3",
-    "settings": {
-      "vnext": [
-        {
-          "address": "45.197.134.32",
-          "port": 8443,
-          "users": [
-            {
-              "id": "3b7950ed-e076-4a51-8df2-22a886897800",
-              "encryption": "none",
-              "flow": "xtls-rprx-vision"
-            }
-          ]
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "chrome",
+          "serverName": "yandex.ru",
+          "publicKey": "i3ZLu0BrMnsEuDUgWoceRnaYMzRVphJE0CiPXmEhE3c",
+          "shortId": "63a9b4c563de9906"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc",
+          "multiMode": true
         }
-      ]
+      }
     },
-    "streamSettings": {
-      "network": "tcp",
-      "security": "reality",
-      "realitySettings": {
-        "show": false,
-        "fingerprint": "firefox",
-        "serverName": "storage.yandex.net",
-        "publicKey": "8qHRGcCezzSu4S-Cz9119BNRLWm4MkaSwZV3"
+    {
+      "protocol": "vless",
+      "tag": "🇳🇱 Нидерланды",
+      "settings": {
+        "vnext": [
+          {
+            "address": "217.198.6.220",
+            "port": 443,
+            "users": [
+              {
+                "id": "bbcde690-aca4-48dd-8da7-85fbad4b6d99",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "chrome",
+          "serverName": "2gis.com",
+          "publicKey": "st5o9WKCgp9QxyDaBLb_nBNtqAtLE9JvYPuojcTJZUg",
+          "shortId": "af6c351795c07807"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc",
+          "multiMode": false
+        }
+      }
+    },
+    {
+      "protocol": "vless",
+      "tag": "🇳🇱 Нидерланды (cdn)",
+      "settings": {
+        "vnext": [
+          {
+            "address": "72.56.124.220",
+            "port": 443,
+            "users": [
+              {
+                "id": "bbcde690-aca4-48dd-8da7-85fbad4b6d99",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "chrome",
+          "serverName": "cdn.lemanapro.ru",
+          "publicKey": "TM6YMck66FyZu1mIF766ADrNUE6IohY8IH-_0GH0ZDM",
+          "shortId": "34afb6c42580a17e"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc",
+          "multiMode": false
+        }
+      }
+    },
+    {
+      "protocol": "vless",
+      "tag": "🇬🇧 Великобритания (xhttp)",
+      "settings": {
+        "vnext": [
+          {
+            "address": "217.179.220.66",
+            "port": 6443,
+            "users": [
+              {
+                "id": "d945d410-9a71-426f-964a-fc37c653a4b5",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "chrome",
+          "serverName": "avatars.mds.yandex.net",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "e67fb918ed6b9ffb"
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        }
+      }
+    },
+    {
+      "protocol": "vless",
+      "tag": "🇬🇧 Великобритания (grpc)",
+      "settings": {
+        "vnext": [
+          {
+            "address": "217.179.220.66",
+            "port": 8443,
+            "users": [
+              {
+                "id": "d945d410-9a71-426f-964a-fc37c653a4b5",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "chrome",
+          "serverName": "avatars.mds.yandex.net",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "e67fb918ed6b9ffb"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-yandex",
+          "multiMode": false
+        }
+      }
+    },
+    {
+      "protocol": "vless",
+      "tag": "🇩🇪 Германия (2)",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.157.233.15",
+            "port": 8443,
+            "users": [
+              {
+                "id": "d945d410-9a71-426f-964a-fc37c653a4b5",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "qq",
+          "serverName": "avatars.mds.yandex.net",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc-yandex",
+          "multiMode": false
+        }
+      }
+    },
+    {
+      "protocol": "vless",
+      "tag": "🇳🇱 Нидерланды (2)",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.252.131.124",
+            "port": 443,
+            "users": [
+              {
+                "id": "bbcde690-aca4-48dd-8da7-85fbad4b6d99",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "firefox",
+          "serverName": "api.events.plus.yandex.net",
+          "publicKey": "4Opj8Sbz5aL7S2AXbBNfUuRBfRpdN8nO55WmZsD3IV8",
+          "shortId": "edd10b6d4b8f7ce4"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc",
+          "multiMode": false
+        }
+      }
+    },
+    {
+      "protocol": "vless",
+      "tag": "🇷🇺 Россия (Ютуб без рекламы)",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.197.134.32",
+            "port": 8443,
+            "users": [
+              {
+                "id": "3b7950ed-e076-4a51-8df2-222a88689700",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "firefox",
+          "serverName": "storage.yandex.net",
+          "publicKey": "8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc",
+          "shortId": "d037f6f67cc90016"
+        },
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
       }
     }
-  }
-]
+  ]
+}
