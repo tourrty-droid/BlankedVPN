@@ -3,5 +3,5 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=0; total=0; expire=253402214400
 
-vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.102:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#🇳🇱 Нидерланды
-vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.51:8443?encryption=none&security=tls&sni=ams1.fromblancwithlove.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇷🇺 Россия (Для Ютуба без рекламы)
+
+
