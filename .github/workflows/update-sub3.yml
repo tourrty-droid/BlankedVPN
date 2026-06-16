@@ -16,6 +16,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     
+    - name: Show current directory
+      run: |
+        pwd
+        ls -la
+    
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
@@ -25,13 +30,11 @@ jobs:
       run: pip install requests
     
     - name: Generate sub3.txt
-      run: |
-        cd BlankedVPN
-        python scripts/generate_sub3.py
+      run: python generate_sub3.py
     
     - name: Commit & Push
       run: |
         git config user.email "actions@github.com"
         git config user.name "GitHub Actions"
-        git add BlankedVPN/sub3.txt
-        git diff --staged --quiet || (git commit -m "🔄 $(date +'%H:%M')" && git push)
+        git add sub3.txt
+        git diff --staged --quiet || (git commit -m "🔄 sub3.txt | $(date +'%H:%M')" && git push)
