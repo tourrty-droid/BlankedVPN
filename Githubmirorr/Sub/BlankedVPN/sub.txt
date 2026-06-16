@@ -6,4 +6,5 @@
 
 vless://4e5017e0-07da-48ef-a882-fa26a845ead6@109.120.188.54:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE&sid=1ca44564cda56661&sni=ads.x5.ru#🇸🇪 Швеция
 vless://bbcde690-aca4-48dd-8da7-85fbad4b6d99@84.252.131.124:443?fp=firefox&pbk=4Opj8Sbz5aL7S2AXbBNfUuRBfRpdN8nO55WmZsD3IV8&security=reality&serviceName=grpc&sid=edd10b6d4b8f7ce4&sni=api.events.plus.yandex.net&type=grpc#🇳🇱 Нидерланды 
-hysteria2://efe3901e-b309-43f3-843a-f4f871670cf3@888275.nl01-cherry.online:8449?insecure=0&sni=sni.nl01-cherry.online#🇳🇱 Нидерланды 
+hysteria2://efe3901e-b309-43f3-843a-f4f871670cf3@888275.nl01-cherry.online:8449?insecure=0&sni=sni.nl01-cherry.online#🇳🇱 Нидерланды
+vless://bbcde690-aca4-48dd-8da7-85fbad4b6d99@84.252.131.124:443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=chrome&sni=api.events.plus.yandex.net&pbk=4Opj8Sbz5aL7S2AXbBNfUuRBfRpdN8nO55WmZsD3IV8&sid=edd10b6d4b8f7ce4#🇳🇱 Нидерланды
