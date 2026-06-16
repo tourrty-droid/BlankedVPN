@@ -1,4 +1,4 @@
-name: Update sub3.txt in BlankedVPN
+name: Update sub3.txt every 30 min
 
 on:
   workflow_dispatch:
@@ -16,6 +16,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     
+    - name: Show structure
+      run: |
+        pwd
+        echo "=== Files ==="
+        ls -la
+        echo "=== All py files ==="
+        find . -name "*.py" -type f
+    
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
@@ -25,11 +33,51 @@ jobs:
       run: pip install requests
     
     - name: Generate sub3.txt
-      run: python BlankedVPN/generate_sub3.py
+      run: |
+        # Создаем скрипт на лету, чтобы избежать проблем с путями
+        cat > /tmp/gen.py << 'PYEOF'
+import requests, random
+from datetime import datetime
+
+URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt"
+FILE = "sub3.txt"
+
+try:
+    print("🔄 Downloading...")
+    r = requests.get(URL, timeout=30)
+    r.raise_for_status()
+    print(f"✅ Loaded: {len(r.text)} bytes")
+    
+    configs, cur = [], []
+    for line in r.text.split('\n'):
+        if line.strip(): cur.append(line)
+        elif cur: configs.append('\n'.join(cur)); cur = []
+    if cur: configs.append('\n'.join(cur))
+    
+    print(f"📊 Configs: {len(configs)}")
+    
+    if not configs:
+        with open(FILE, 'w') as f: f.write("# No configs\n")
+        exit()
+    
+    selected = random.sample(configs, min(6, len(configs)))
+    out = f"# BlankedVPN 🇷🇺\n# {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n# Configs: {len(selected)}/{len(configs)}\n# Updates: every 30 min\n\n"
+    out += '\n\n'.join(selected)
+    
+    with open(FILE, 'w', encoding='utf-8') as f:
+        f.write(out)
+    
+    print(f"✅ sub3.txt created | {len(out)} bytes | {len(selected)} configs")
+
+except Exception as e:
+    print(f"❌ Error: {e}")
+    with open(FILE, 'w') as f: f.write(f"# Error: {e}\n")
+PYEOF
+        python /tmp/gen.py
     
     - name: Commit & Push
       run: |
         git config user.email "actions@github.com"
         git config user.name "GitHub Actions"
-        git add BlankedVPN/sub3.txt
-        git diff --staged --quiet || (git commit -m "🔄 BlankedVPN/sub3.txt | $(date +'%H:%M')" && git push)
+        git add sub3.txt
+        git diff --staged --quiet || (git commit -m "🔄 sub3.txt | $(date +'%H:%M')" && git push)
