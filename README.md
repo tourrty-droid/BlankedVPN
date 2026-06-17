@@ -33,7 +33,7 @@ cd BlankedVPN
 docker compose up -d
 ```
 
-Подключение
+## Подключение
 
 1. Скачай конфиг из панели управления
 2. Импортируй в клиент (WireGuard, NekoBox, Streisand)
