@@ -3,11 +3,5 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=0; total=0; expire=253402214400
 
-vless://f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4@l1.l-itx.info:7443?type=grpc&headerType=none&security=reality&encryption=none&sni=colorlib.com&fp=firefox&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&serviceName=xyz#🇩🇪🏴 Германия | Any-Cast 🌐
-vless://ca428a2e-7f82-4030-851b-cab731a5645a@l10-1.l-itx.info:7443?type=grpc&security=reality&fp=chrome&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sid=6ba85179e30d4fc3&sni=colorlib.com&mode=gun&serviceName=xyz&authority=colorlib.com#🇨🇭🏴 Швейцария | Any-Cast 🌐
-vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.51:8443?encryption=none&security=tls&sni=ams1.fromblancwithlove.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇳🇱🏴 Нидерланды | Any-Cast 🌐
-vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.58:8443?encryption=none&security=tls&sni=ams1.fromblancwithlove.com&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇳🇱🏴 Нидерланды | Рез.#1 | Any-Cast 🌐
-vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.70:8443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=ams1.fromblancwithlove.com#🇳🇱🏴 Нидерланды | Рез.#2 | Any-Cast 🌐
-vless://b4e7884c-d2fa-4d17-b95a-e2fab387937a@de555.sonicsonic.icu:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&security=reality&sni=de555.sonicsonic.icu&type=tcp#🇵🇱🏳️ Польша  | CIDR 🌐
-vless://b4e7884c-d2fa-4d17-b95a-e2fab387937a@de555.sonicsonic.icu:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&sni=de555.sonicsonic.icu&spx=/#🇩🇪🏳️ Германия | CIDR 🌐
-vless://82a7f52c-f047-4f8c-b913-3ea1f29bdb38@194.180.206.196:443?security=reality&encryption=none&pbk=5pj_m0SB8p5ah-Jc7QZrF5iEVeeLyZY8fWM6OZWj5FM&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.samsung.com#🇮🇹🏳️ Италия (Для тиктока)
+vless://1b9e301d-cecd-4eb1-8b36-eef811c2696d@155.212.182.19:443?encryption=none&flow=&security=reality&sni=wildberries.ru&fp=chrome&pbk=A7g4cVaB6_5cmIrGbv-PmkVpS4pvHWp2HfLZbjv-SDQ&sid=5e841fab&type=tcp&headerType=none#🇵🇱 Польша
+
