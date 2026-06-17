@@ -1,7 +1,8 @@
 #profile-title: BlankedVPN
 #profile-update-interval: 1
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
-#subscription-userinfo: upload=0; download=0; total=0; expire=253402214400
+#subscription-userinfo: upload=0; download=0; total=0
+37582; expire=253402214400
 
 vless://6d38c38a-14f6-4a21-9732-23dbce1e3e8f@51.250.97.18:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdp.x5.ru&fp=safari&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a&type=tcp&headerType=none#🇩🇪 Германия <Vk>
 vless://bfd6c195-e37e-40ed-b962-c3ea4ac0f5df@37.139.34.63:23356?encryption=none&type=grpc&security=reality&mode=gun&serviceName=api&fp=edge&sni=apple.com&pbk=KtHJA0ZiW3VEPTjGQOlT3NlXZWlqAPHKHqki_IGX3Wk&sid=483d116ad48a4091#🇷🇺 Россия (Для Ютуба без рекламы)
