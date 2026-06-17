@@ -3,6 +3,6 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=0; total=0; expire=253402214400
 
-vless://6d38c38a-14f6-4a21-9732-23dbce1e3e8f@51.250.97.18:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdp.x5.ru&fp=safari&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a&type=tcp&headerType=none#🇩🇪 Германия <Vk>
+vless://6d38c38a-14f6-4a21-9732-23dbce1e3e8f@51.250.97.18:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=cdp.x5.ru&fp=safari&pbk=wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI&sid=8ec792bfd725be8a&type=tcp&headerType=none#🇩🇪 Германия
 vless://bfd6c195-e37e-40ed-b962-c3ea4ac0f5df@37.139.34.63:23356?encryption=none&type=grpc&security=reality&mode=gun&serviceName=api&fp=edge&sni=apple.com&pbk=KtHJA0ZiW3VEPTjGQOlT3NlXZWlqAPHKHqki_IGX3Wk&sid=483d116ad48a4091#🇷🇺 Россия (Для Ютуба без рекламы)
 vless://039a1658-e86e-475f-a3a4-67cc249acada@144.124.228.113:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nl3.panel11.ru&fp=firefox&pbk=odHeTqoDcoPA6jeZStmaFPqoFg0ZiWwOKREEB0X-ez4&sid=e069bfaf9ba2069c&type=tcp&headerType=none#🇺🇸 Соединёные Штаты [!]
