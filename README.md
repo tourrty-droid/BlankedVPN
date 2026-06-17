@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Untitled189_20260618011155.png" alt="BlankedVPN" width="80" height="80">
+  <img src="https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Untitled189_20260618011155.png" alt="BlankedVPN" width="160" height="160">
   <h1>BlankedVPN</h1>
   <p>Лёгкий VPN для обхода блокировок. Без логов. С открытым кодом.</p>
 </div>
@@ -22,6 +22,7 @@
 | sub3.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/sub3.txt |
 | sub4.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub4.txt |
 | sub5.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub5.txt |
+| sub6.1.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub6.1.txt |
 
 ## Установка сервера
 
