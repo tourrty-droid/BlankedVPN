@@ -21,6 +21,7 @@
 | sub2.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub2.txt |
 | sub3.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/sub3.txt |
 | sub4.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub4.txt |
+| sub5.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub5.txt |
 
 ## Установка сервера
 
