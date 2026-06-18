@@ -6,6 +6,10 @@
 
 ---
 
+<a href="https://tourrty-droid.github.io/BlankedVPN/">
+    <img src="https://img.shields.io/badge/🚀-Перейти_на_сайт_с_конфигурациями-764ba2?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=667eea" alt="Перейти на сайт с конфигурациями">
+</a>
+
 ## Возможности
 
 - Zero-log политика
