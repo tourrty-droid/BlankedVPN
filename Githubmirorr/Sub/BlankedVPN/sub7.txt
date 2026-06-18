@@ -1,0 +1,22 @@
+#profile-title: BlankedProxyTG
+#profile-update-interval: 1
+#announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
+#subscription-userinfo: upload=0; download=0; total=18446744073709551615; expire=253402214400
+
+vless://21ad715f-f0c2-48ec-9f4b-64f433f3cbe8@ca-dp-01.com:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=storage.yandex.net&fp=firefox&pbk=pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8&sid=500aec9e9e5e2212&type=tcp&headerType=none#🇨🇦Канада
+vless://f5a2c547-734e-4655-8069-618e38e2cd5c@209.209.9.219:3443?flow=xtls-rprx-vision&fp=firefox&pbk=AdSCtMttNJ-KQuURl1ynBdy8DtAbCUFG6G2qB-GbTXU&security=reality&sid=bc755b173467c322&sni=www.microsoft.com&type=tcp#🇨🇦Канада
+vless://a71c8954-66a8-4321-bedb-2336230d81ce@130.107.73.148:41373?flow=xtls-rprx-vision&fp=firefox&pbk=m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU&security=reality&sid=0e&sni=google.com&type=tcp#🇨🇦Канада
+vless://a71c8954-66a8-4321-bedb-2336230d81ce@130.107.73.148:41373?security=reality&encryption=none&pbk=m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU&headerType=none&fp=chrome&spx=%2F&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=0e#🇨🇦Канада
+vless://21c898c8-8cab-46bf-9482-9cfb23321bd9@130.94.36.85:443?flow=xtls-rprx-vision&fp=firefox&pbk=uhgb6lTTsq8Oh-hDFaYG-vKs5nCsmhRuWfldUEO9GGs&security=reality&sid=ff6d9b3d&sni=www.microsoft.com&type=tcp#🇨🇳Китай
+vless://21c898c8-8cab-46bf-9482-9cfb23321bd9@130.94.36.85:443?security=reality&encryption=none&pbk=uhgb6lTTsq8Oh-hDFaYG-vKs5nCsmhRuWfldUEO9GGs&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&sid=ff6d9b3d#🇨🇳Китай
+vless://28beee5e-40ab-3c36-b797-1e4ecf27d0a0@130.94.30.4:443?encryption=none&type=tcp&headerType=&fp=ios&host=s2747.wagahaha.xyz&path=&flow=xtls-rprx-vision&security=tls&sni=u729792us2747.wagahaha.xyz&serviceName=&mode=&alpn=#🇨🇳Китай
+vless://4e817899-2466-425c-a671-7ab5f25d08e8@130.94.45.81:443?flow=xtls-rprx-vision&fp=firefox&pbk=eJlKZq9C1kDSoLaod29cDbS0OFBx9nOGsSQNwq2-fyk&security=reality&sid=ad041ff6&sni=www.microsoft.com&type=tcp#🇨🇳Китай
+vless://4e817899-2466-425c-a671-7ab5f25d08e8@130.94.45.81:443?security=reality&encryption=none&pbk=eJlKZq9C1kDSoLaod29cDbS0OFBx9nOGsSQNwq2-fyk&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&sid=ad041ff6#🇨🇳Китай
+vless://5854d471-23a6-4c97-a398-95f483f885b0@aziz.carderrr.com:44114?security=&encryption=none&headerType=&type=tcp#🇫🇮Финляндия
+vless://66ad2f3c-181c-4b1b-bb0e-33c50a6b6bc9@fin83.alexanderoff.ru:11604?type=tcp&security=none&fp=chrome#🇫🇮Финляндия
+vless://66ad2f3c-181c-4b1b-bb0e-33c50a6b6bc9@fin83.alexanderoff.ru:30516?mode=auto&path=%2F&security=tls&alpn=h3&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&type=xhttp&sni=fin83.alexanderoff.ru#🇫🇮Финляндия
+vless://b9f33025-9b40-4ece-9a10-85da0f0af052@fin185.alexanderoff.ru:36294?security=&encryption=none&headerType=&type=tcp#🇫🇮Финляндия
+vless://b9f33025-9b40-4ece-9a10-85da0f0af052@fin185.alexanderoff.ru:36294?type=tcp&security=none&fp=chrome#🇫🇮Финляндия
+vless://ff911230-dea8-43f8-8095-a8e05c809ae0@45.198.108.171:8443?flow=xtls-rprx-vision&fp=firefox&pbk=KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg&security=reality&sid=f45c9665f3261108&sni=storage.yandex.net&type=tcp#🇫🇮Финляндия
+vless://4efaf684-3e7b-47a6-9193-d8d8f3481210@194.99.23.99:443?flow=xtls-rprx-vision&fp=firefox&pbk=6rFjs5UBwNclLg6BscH1x_aXLxsZEaLehgjS49s8fGc&security=reality&sni=api.github.com&type=tcp#🇫🇷Франция
+vless://42e0d02c-b75c-4b9d-bc15-773aa3cbe6bc@14.102.228.201:2052?encryption=none&type=xhttp&mode=auto&host=u2.pabloping.cloud&path=/pabloping&security=none#🇫🇷Франция
