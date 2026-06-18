@@ -30,6 +30,8 @@
 | sub6.2.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub6.2.txt |
 | sub7.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub7.txt |
 | sub8.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.txt |
+| sub8.1.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.1.txt |
+| sub8.2.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.2.txt |
 
 ## Подключение
 
