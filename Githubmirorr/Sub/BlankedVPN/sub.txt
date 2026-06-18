@@ -4,6 +4,7 @@
 #subscription-userinfo: upload=0; download=3241172480000; total=0; expire=253402214400
 
 vless://96b0dedc-a7ac-4bd3-a286-fee45319b586@5.175.178.81:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=esttk31.potatosubge20.org&fp=firefox&alpn=http/1.1&type=tcp&headerType=none#🇪🇪%20Эстония%20[До 21 Июня]
-vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.195:8443?type=tcp&security=tls&fp=firefox&sni=ams1.fromblancwithlove.com#🇸🇪%20Швеция%20⚡
+vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.130:8443?type=tcp&security=tls&fp=firefox&sni=ams1.fromblancwithlove.com#🇦🇷 Аргентина (Special) ⚡
+vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.195:8443?type=tcp&security=tls&fp=firefox&sni=ams1.fromblancwithlove.com#🇸🇪 Швеция (Special) ⚡
 trojan://BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V@130.94.114.217:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=130.94.114.217#🇺🇸 Соединёные Штаты 🐢
 trojan://BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V@130.94.114.217:443?sni=130.94.114.217&peer=130.94.114.217&security=tls#🇺🇸 Соединёные Штаты 🐢
