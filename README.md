@@ -27,18 +27,10 @@
 | sub7.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub7.txt |
 | sub8.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.txt |
 
-## Установка сервера
-
-```bash
-git clone https://github.com/tourrty-droid/BlankedVPN.git
-cd BlankedVPN
-docker compose up -d
-```
-
 ## Подключение
 
-1. Скачай конфиг из панели управления
-2. Импортируй в клиент (WireGuard, NekoBox, Streisand)
+1. Выберите любую сыллку из таблицы сверху и скопируйте её (Советуем sub1.txt, sub3.txt и sub8.txt)
+2. Импортируй в клиент (Happ, V2raytun, Nekoray и другие)
 3. Подключись
 
 ---
