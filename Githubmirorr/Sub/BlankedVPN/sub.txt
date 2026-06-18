@@ -3,5 +3,6 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=0; total=0; expire=253402214400
 
-vless://a3a8c354-a85c-477b-90f3-dbe08cadf31c@216.167.28.246:22335?flow=xtls-rprx-vision&fp=firefox&pbk=zPM3iLhD0ppwxYWzwiXFhQd1PwXCjFN9u28DbXdy604&security=reality&sid=a2346cd0&sni=www.yahoo.com&type=tcp#🇺🇸 Соединёные Штаты
-vless://ec2aaf4f-b1aa-4410-4b14-d4b4e9b5daf4@213.219.212.51:443?flow=xtls-rprx-vision&fp=firefox&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk&security=reality&sni=eh.vk.ru&type=tcp#🇷🇺 Россия (Для Ютуба без рекламы)
+trojan://BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V@130.94.114.217:443?allowInsecure=1&insecure=1&type=tcp&security=tls#🇳🇱 Нидерланды (P2P)
+trojan://BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V@130.94.114.217:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=130.94.114.217#🇺🇸 Соединёные Штаты
+trojan://BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V@130.94.114.217:443?sni=130.94.114.217&peer=130.94.114.217&security=tls#🇺🇸 Соединёные Штаты 
