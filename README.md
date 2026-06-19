@@ -23,13 +23,13 @@
 |------|--------|
 | sub1.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub.txt |
 | sub2.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub2.txt |
-| sub3.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/sub3.txt |
+| sub3.txt (А) | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/sub3.txt |
 | sub4.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub4.txt |
 | sub5.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub5.txt |
 | sub6.1.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub6.1.txt |
 | sub6.2.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub6.2.txt |
 | sub7.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub7.txt |
-| sub8.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.txt |
+| sub8.txt (А) | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.txt |
 | sub8.1.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.1.txt |
 | sub8.2.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.2.txt |
 | sub8.3.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.3.txt |
