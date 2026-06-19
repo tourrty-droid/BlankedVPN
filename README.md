@@ -32,7 +32,9 @@
 | sub8.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.txt |
 | sub8.1.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.1.txt |
 | sub8.2.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.2.txt |
-
+| sub8.3.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.3.txt |
+| sub9.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub9.txt |
+| sub9.1.txt | https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub9.1.txt |
 ## Подключение
 
 1. Выберите любую сыллку из таблицы сверху и скопируйте её (Советуем sub1.txt, sub3.txt и sub8.txt)
