@@ -7,4 +7,5 @@ vless://96b0dedc-a7ac-4bd3-a286-fee45319b586@5.175.178.81:443?encryption=none&fl
 vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.130:8443?type=tcp&security=tls&fp=firefox&sni=ams1.fromblancwithlove.com#🇦🇷 Аргентина (Special) ⚡
 vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.195:8443?type=tcp&security=tls&fp=firefox&sni=ams1.fromblancwithlove.com#🇸🇪 Швеция (Special) ⚡
 vless://68001b7e-e48a-5a02-8243-c1a2a37b66b7@146.19.254.109:443?mode=gun&security=reality&encryption=none&authority=&pbk=WIeO8R9We0X2lv0M3-E_yOkXyUBayIRKIBDUMDVu6BE&fp=firefox&allowinsecure=0&type=grpc&serviceName=&sni=ya.ru&sid=ffffffffff#🇳🇱 Нидерланды (Тикток без рекламы) ⚡
-hysteria2://be7441a663ef465566e3a6e441a16357@188.225.80.130:7443?security=tls&fm=%7B%7D&allowinsecure=0&sni=tw-vds.t1n2.com#🇷🇺 Россия (Для Ютуба без рекламы)
+hysteria2://be7441a663ef465566e3a6e441a16357@188.225.80.130:7443?security=tls&fm=%7B%7D&allowinsecure=0&sni=tw-vds.t1n2.com#🇷🇺#1 Россия (Для Ютуба без рекламы)
+vless://7193bdae-58d9-42be-93a7-94c60f14bf86@31.76.119.133:443?security=reality&encryption=none&pbk=G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y&headerType=none&allowinsecure=0&type=tcp&sni=cloudrynth.com#🇷🇺#2 Россия (Для Ютуба без рекламы)
