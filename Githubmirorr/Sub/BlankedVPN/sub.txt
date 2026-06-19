@@ -1,7 +1,7 @@
 #profile-title: BlankedVPN
 #profile-update-interval: 2
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
-#subscription-userinfo: upload=0; download=3241172480000; total=0; expire=253402214400
+#subscription-userinfo: upload=0; download=969837380000; total=0; expire=253402214400
 
 vless://96b0dedc-a7ac-4bd3-a286-fee45319b586@5.175.178.81:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=esttk31.potatosubge20.org&fp=firefox&alpn=http/1.1&type=tcp&headerType=none#🇪🇪Эстония [До 21 Июня] ⚡⚡
 vless://96b0dedc-a7ac-4bd3-a286-fee45319b586@88.216.73.26:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=uscher30.potatosubge20.org&fp=firefox&alpn=http%2F1.1&type=tcp&headerType=none#🇺🇸 Штаты [До 21 Июня] ⚡️ (Тикток без рекламы)
