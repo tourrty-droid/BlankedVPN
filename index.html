@@ -45,7 +45,6 @@
             --scrollbar-thumb: rgba(102, 126, 234, 0.3);
         }
 
-        /* ===== Общие стили ===== */
         * {
             margin: 0;
             padding: 0;
@@ -77,7 +76,6 @@
             z-index: 0;
         }
 
-        /* ===== Контейнер ===== */
         .container {
             max-width: 1200px;
             width: 100%;
@@ -100,8 +98,8 @@
             justify-content: space-between;
             flex-wrap: wrap;
             gap: 20px;
-            margin-bottom: 40px;
-            padding-bottom: 30px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
             border-bottom: 1px solid var(--border-color);
         }
 
@@ -120,8 +118,6 @@
             align-items: center;
             justify-content: center;
             font-size: 28px;
-            font-weight: 800;
-            color: white;
             box-shadow: 0 8px 24px var(--shadow-color);
         }
 
@@ -152,7 +148,6 @@
             flex-wrap: wrap;
         }
 
-        /* ===== Кнопка темы ===== */
         .theme-btn {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
@@ -178,7 +173,6 @@
             font-weight: 500;
         }
 
-        /* ===== Кнопка GitHub ===== */
         .github-btn {
             display: flex;
             align-items: center;
@@ -207,25 +201,35 @@
             fill: var(--text-primary);
         }
 
-        /* ===== Счётчик ===== */
+        /* ===== Счётчик с анимацией ===== */
         .counter-section {
             background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(118, 75, 162, 0.15));
             border-radius: 20px;
             padding: 30px;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             text-align: center;
             border: 1px solid rgba(102, 126, 234, 0.1);
             transition: background 0.5s ease;
         }
 
         .counter-number {
-            font-size: 56px;
+            font-size: 72px;
             font-weight: 800;
             background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             line-height: 1;
+            transition: all 0.3s ease;
+        }
+
+        .counter-number.updating {
+            animation: counterPulse 0.5s ease;
+        }
+
+        @keyframes counterPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
         }
 
         .counter-label {
@@ -248,7 +252,7 @@
 
         /* ===== Топ стран ===== */
         .top-countries-section {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         .top-countries-title {
@@ -349,7 +353,7 @@
 
         .table-wrapper {
             overflow-x: auto;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             border-radius: 16px;
             border: 1px solid var(--border-color);
         }
@@ -483,11 +487,6 @@
             color: #4ade80;
         }
 
-        .status-updating {
-            background: rgba(251, 191, 36, 0.15);
-            color: #fbbf24;
-        }
-
         .status-error {
             background: rgba(239, 68, 68, 0.15);
             color: #ef4444;
@@ -496,7 +495,7 @@
         /* ===== Кнопка обновить ===== */
         .button-wrapper {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
 
         .refresh-btn {
@@ -507,7 +506,6 @@
             color: white;
             padding: 14px 32px;
             border-radius: 14px;
-            text-decoration: none;
             font-weight: 600;
             font-size: 15px;
             transition: all 0.3s ease;
@@ -522,14 +520,55 @@
             box-shadow: 0 12px 32px var(--shadow-color);
         }
 
-        .refresh-btn:active {
-            transform: scale(0.98);
-        }
-
         .refresh-btn:disabled {
             opacity: 0.6;
             cursor: not-allowed;
         }
+
+        /* ===== Кнопки поделиться ===== */
+        .share-section {
+            margin: 20px 0 30px 0;
+            text-align: center;
+        }
+
+        .share-title {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .share-btn {
+            padding: 10px 20px;
+            border-radius: 12px;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+        }
+
+        .share-btn:hover {
+            transform: translateY(-2px) scale(1.02);
+        }
+
+        .share-telegram { background: #0088cc; }
+        .share-whatsapp { background: #25d366; }
+        .share-vk { background: #4a76a8; }
+        .share-copy { background: var(--bg-card); color: var(--text-primary); border: 1px solid var(--border-color); }
+        .share-copy:hover { background: var(--bg-card-hover); }
 
         /* ===== Футер ===== */
         .footer {
@@ -626,7 +665,7 @@
             }
             
             .counter-number {
-                font-size: 40px;
+                font-size: 48px;
             }
             
             .header-controls {
@@ -644,14 +683,6 @@
                 font-size: 13px;
             }
 
-            .file-name {
-                font-size: 13px;
-            }
-
-            .table-wrapper {
-                border-radius: 12px;
-            }
-
             .action-buttons {
                 flex-direction: column;
                 gap: 4px;
@@ -663,6 +694,16 @@
                 padding: 6px 10px;
                 font-size: 11px;
             }
+
+            .share-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .share-btn {
+                width: 100%;
+                justify-content: center;
+            }
         }
 
         @media (max-width: 480px) {
@@ -670,26 +711,11 @@
                 padding: 20px 14px;
             }
 
-            th, td {
-                padding: 8px 10px;
-                font-size: 11px;
-            }
-
-            .file-name {
-                font-size: 11px;
-            }
-
-            .btn {
-                font-size: 10px;
-                padding: 4px 8px;
-            }
-
-            .theme-btn span {
-                display: none;
+            .counter-number {
+                font-size: 36px;
             }
         }
 
-        /* ===== Скроллбар ===== */
         ::-webkit-scrollbar {
             width: 8px;
             height: 8px;
@@ -704,22 +730,6 @@
         ::-webkit-scrollbar-thumb:hover {
             background: rgba(102, 126, 234, 0.5);
         }
-
-        /* ===== Анимация входа ===== */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .container {
-            animation: fadeInUp 0.6s ease-out;
-        }
     </style>
 </head>
 <body>
@@ -730,7 +740,6 @@
     <!-- ===== Toast уведомление ===== -->
     <div class="toast" id="toast"></div>
 
-    <!-- ===== Основной контейнер ===== -->
     <div class="container">
 
         <!-- ===== Шапка ===== -->
@@ -760,7 +769,7 @@
         <!-- ===== Счётчик ===== -->
         <div class="counter-section">
             <div class="counter-number" id="totalConfigs">0</div>
-            <div class="counter-label">всего конфигураций</div>
+            <div class="counter-label">всего конфигураций доступно</div>
             <div class="counter-badge">🔄 Автообновление каждые 2 часа</div>
         </div>
 
@@ -779,7 +788,7 @@
                    oninput="filterTable()">
         </div>
 
-        <!-- ===== Таблица конфигов ===== -->
+        <!-- ===== Таблица ===== -->
         <div class="configs-title">
             <span class="dot"></span>
             Доступные файлы конфигураций
@@ -811,6 +820,25 @@
             <button class="refresh-btn" onclick="refreshAll()">
                 🔄 Обновить все конфигурации
             </button>
+        </div>
+
+        <!-- ===== Кнопки поделиться ===== -->
+        <div class="share-section">
+            <div class="share-title">📨 Поделиться с друзьями</div>
+            <div class="share-buttons">
+                <button class="share-btn share-telegram" onclick="shareTelegram()">
+                    📨 Telegram
+                </button>
+                <button class="share-btn share-whatsapp" onclick="shareWhatsApp()">
+                    💬 WhatsApp
+                </button>
+                <button class="share-btn share-vk" onclick="shareVK()">
+                    🟦 VK
+                </button>
+                <button class="share-btn share-copy" onclick="copyPageLink()">
+                    📋 Копировать ссылку
+                </button>
+            </div>
         </div>
 
         <!-- ===== Футер ===== -->
@@ -860,7 +888,6 @@
                 }
 
                 update() {
-                    // Притяжение к мышке
                     const dx = mouseX - this.x;
                     const dy = mouseY - this.y;
                     const dist = Math.sqrt(dx * dx + dy * dy);
@@ -885,7 +912,6 @@
                         `rgba(102, 126, 234, ${this.opacity * 0.4})`;
                     ctx.fill();
 
-                    // Соединения
                     for (const other of particles) {
                         const dx = this.x - other.x;
                         const dy = this.y - other.y;
@@ -924,7 +950,6 @@
                 mouseY = e.clientY;
             });
 
-            // Обновляем тему для частиц
             window.setParticlesTheme = (dark) => {
                 isDark = dark;
             };
@@ -959,7 +984,7 @@
         applyTheme();
 
         // =====================================================
-        // 3. ДАННЫЕ КОНФИГОВ
+        // 3. ДАННЫЕ КОНФИГОВ (ОБНОВЛЕНЫ)
         // =====================================================
         const CONFIG_FILES = [
             { name: 'sub1.txt', url: 'https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub.txt' },
@@ -970,26 +995,48 @@
             { name: 'sub6.1.txt', url: 'https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub6.1.txt' },
             { name: 'sub6.2.txt', url: 'https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub6.2.txt' },
             { name: 'sub7.txt', url: 'https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub7.txt' },
-            { name: 'sub8.txt', url: 'https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.txt' }
+            { name: 'sub8.txt', url: 'https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.txt' },
+            { name: 'sub8.1.txt', url: 'https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.1.txt' },
+            { name: 'sub8.2.txt', url: 'https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Githubmirorr/Sub/BlankedVPN/sub8.2.txt' }
         ];
-
-        const FILE_ICONS = {
-            'sub1.txt': '📄',
-            'sub2.txt': '📄',
-            'sub3.txt': '📄',
-            'sub4.txt': '📄',
-            'sub5.txt': '📄',
-            'sub6.1.txt': '📄',
-            'sub6.2.txt': '📄',
-            'sub7.txt': '📄',
-            'sub8.txt': '📄'
-        };
 
         let allRows = [];
         let countryCounts = {};
+        let previousTotal = 0;
 
         // =====================================================
-        // 4. ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ
+        // 4. АНИМИРОВАННЫЙ СЧЁТЧИК (от 0 до target)
+        // =====================================================
+        function animateCounter(target, duration = 1500) {
+            const element = document.getElementById('totalConfigs');
+            const start = 0;
+            const startTime = performance.now();
+            
+            element.classList.add('updating');
+            
+            function update(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                
+                // Easing function
+                const eased = 1 - Math.pow(1 - progress, 3);
+                const current = Math.floor(start + (target - start) * eased);
+                
+                element.textContent = current.toLocaleString();
+                
+                if (progress < 1) {
+                    requestAnimationFrame(update);
+                } else {
+                    element.textContent = target.toLocaleString();
+                    setTimeout(() => element.classList.remove('updating'), 500);
+                }
+            }
+            
+            requestAnimationFrame(update);
+        }
+
+        // =====================================================
+        // 5. ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ
         // =====================================================
         function showToast(message, isSuccess = true) {
             const toast = document.getElementById('toast');
@@ -1008,7 +1055,6 @@
         }
 
         function extractCountryFromName(name) {
-            // Пытаемся извлечь страну из названия файла или конфига
             const countries = [
                 '🇷🇺 Россия', '🇺🇸 США', '🇬🇧 Великобритания', '🇩🇪 Германия',
                 '🇫🇷 Франция', '🇨🇦 Канада', '🇦🇺 Австралия', '🇯🇵 Япония',
@@ -1032,7 +1078,7 @@
         }
 
         // =====================================================
-        // 5. ЗАГРУЗКА КОНФИГОВ
+        // 6. ЗАГРУЗКА КОНФИГОВ
         // =====================================================
         async function checkFileStatus(file) {
             try {
@@ -1068,6 +1114,8 @@
             }
         }
 
+        let isFirstLoad = true;
+
         async function loadConfigs() {
             const tbody = document.getElementById('configsTableBody');
             tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;padding:40px;color:var(--text-muted);">⏳ Загрузка...</td></tr>';
@@ -1075,17 +1123,18 @@
             let totalConfigs = 0;
             countryCounts = {};
             let rows = [];
+            let countriesSet = new Set();
 
             for (const file of CONFIG_FILES) {
                 const status = await checkFileStatus(file);
                 const configsCount = await countConfigsInFile(file.url);
                 totalConfigs += configsCount;
 
-                // Подсчёт стран (имитация)
                 const country = extractCountryFromName(file.name);
                 countryCounts[country] = (countryCounts[country] || 0) + configsCount;
+                countriesSet.add(country);
 
-                const icon = FILE_ICONS[file.name] || '📄';
+                const icon = '📄';
                 const sizeStr = status.exists ? formatFileSize(status.size) : '—';
                 const statusClass = status.exists ? 'status-active' : 'status-error';
                 const statusText = status.exists ? '✅ Доступен' : '❌ Ошибка';
@@ -1105,12 +1154,20 @@
 
             allRows = rows;
 
-            // Сортируем по имени
-            rows.sort((a, b) => a.name.localeCompare(b.name));
+            // При первой загрузке — анимация с 0 до totalConfigs
+            if (isFirstLoad) {
+                animateCounter(totalConfigs);
+                isFirstLoad = false;
+            } else {
+                // При обновлении — просто меняем число без анимации (или с короткой)
+                document.getElementById('totalConfigs').textContent = totalConfigs.toLocaleString();
+            }
 
+            previousTotal = totalConfigs;
+
+            rows.sort((a, b) => a.name.localeCompare(b.name));
             renderTable(rows);
             renderTopCountries();
-            updateTotalConfigs(totalConfigs);
             updateTime();
         }
 
@@ -1138,7 +1195,7 @@
                                 📋 Копировать
                             </button>
                             <button class="btn btn-import" onclick="importConfig('${row.url}')">
-                                📱 Импорт
+                                📱 Импорт (Happ)
                             </button>
                         </div>
                     </td>
@@ -1146,19 +1203,6 @@
             `).join('');
         }
 
-        function updateTotalConfigs(total) {
-            document.getElementById('totalConfigs').textContent = total;
-        }
-
-        function updateTime() {
-            const now = new Date();
-            document.getElementById('lastUpdate').textContent = 
-                `Последнее обновление: ${now.toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' })} MSK`;
-        }
-
-        // =====================================================
-        // 6. ТОП СТРАН
-        // =====================================================
         function renderTopCountries() {
             const container = document.getElementById('topCountries');
             const sorted = Object.entries(countryCounts)
@@ -1177,6 +1221,12 @@
                     <span class="count">${count}</span>
                 </span>
             `).join('');
+        }
+
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('lastUpdate').textContent = 
+                `Последнее обновление: ${now.toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' })} MSK`;
         }
 
         // =====================================================
@@ -1198,7 +1248,6 @@
             navigator.clipboard.writeText(url).then(() => {
                 showToast('✅ Ссылка скопирована!');
             }).catch(() => {
-                // Fallback
                 const textarea = document.createElement('textarea');
                 textarea.value = url;
                 document.body.appendChild(textarea);
@@ -1209,26 +1258,18 @@
             });
         }
 
+        function copyPageLink() {
+            const url = window.location.href;
+            copyLink(url);
+        }
+
         // =====================================================
-        // 9. ИМПОРТ В КЛИЕНТЫ
+        // 9. ИМПОРТ ТОЛЬКО ЧЕРЕЗ HAPP
         // =====================================================
         function importConfig(url) {
-            // Показываем выбор клиента
-            const client = confirm(
-                'Выберите клиент для импорта:\n\n' +
-                'Нажмите "OK" для v2rayNG/Nekobox\n' +
-                'Нажмите "Отмена" для Shadowrocket/Quantumult'
-            );
-
-            if (client) {
-                // v2rayNG / Nekobox (поддерживают прямые ссылки)
-                window.open(`v2ray://${encodeURIComponent(url)}`, '_blank');
-                showToast('📱 Открывается v2rayNG...');
-            } else {
-                // Shadowrocket / Quantumult
-                window.open(`https://link.shadowrocket.com/import?url=${encodeURIComponent(url)}`, '_blank');
-                showToast('📱 Открывается Shadowrocket...');
-            }
+            // Открываем через схему happ://
+            window.open(`happ://import?url=${encodeURIComponent(url)}`, '_blank');
+            showToast('📱 Открывается Happ...');
         }
 
         // =====================================================
@@ -1252,17 +1293,45 @@
         }
 
         // =====================================================
-        // 11. ЗАПУСК
+        // 11. ШАРИНГ
         // =====================================================
-        loadConfigs();
-        setInterval(loadConfigs, 300000); // Обновляем каждые 5 минут
+        function shareTelegram() {
+            const url = window.location.href;
+            window.open(`https://t.me/share/url?url=${encodeURIComponent(url)}&text=🔒%20Бесплатные%20конфигурации%20VPN%20для%20обхода%20блокировок!%20Обновляются%20каждые%202%20часа%20🚀`, '_blank');
+            showToast('📨 Открывается Telegram...');
+        }
 
-        // Добавляем глобальные функции
+        function shareWhatsApp() {
+            const url = window.location.href;
+            window.open(`https://api.whatsapp.com/send?text=🔒%20Бесплатные%20конфигурации%20VPN%20для%20обхода%20блокировок!%20${encodeURIComponent(url)}`, '_blank');
+            showToast('💬 Открывается WhatsApp...');
+        }
+
+        function shareVK() {
+            const url = window.location.href;
+            window.open(`https://vk.com/share.php?url=${encodeURIComponent(url)}&title=BlankedVPN%20-%20Бесплатные%20конфигурации%20VPN`, '_blank');
+            showToast('🟦 Открывается VK...');
+        }
+
+        // =====================================================
+        // 12. ЗАПУСК
+        // =====================================================
+        // Загружаем данные (анимация запустится автоматически)
+        loadConfigs();
+
+        // Обновляем каждые 5 минут
+        setInterval(loadConfigs, 300000);
+
+        // Глобальные функции
         window.toggleTheme = toggleTheme;
         window.copyLink = copyLink;
+        window.copyPageLink = copyPageLink;
         window.importConfig = importConfig;
         window.filterTable = filterTable;
         window.refreshAll = refreshAll;
+        window.shareTelegram = shareTelegram;
+        window.shareWhatsApp = shareWhatsApp;
+        window.shareVK = shareVK;
     </script>
 
 </body>
