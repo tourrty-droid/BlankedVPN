@@ -41,6 +41,16 @@
 2. Импортируй в клиент (Happ, V2raytun, Nekoray и другие)
 3. Подключитесь
 
+## Статус сайта
+
+[тык](https://stats.uptimerobot.com/rm0iNYPnZx)
+
+## Отдельное спасибо
+
+https://github.com/Hidashimora/free-vpn-anti-rkn
+https://github.com/kort0881/vpn-vless-configs-russia
+
+
 ---
 
 <div align="center">
