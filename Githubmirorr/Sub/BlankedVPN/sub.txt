@@ -3,11 +3,5 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=9698373800000; total=0; expire=253402214400
 
-vless://96b0dedc-a7ac-4bd3-a286-fee45319b586@5.175.178.81:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=esttk31.potatosubge20.org&fp=firefox&alpn=http/1.1&type=tcp&headerType=none#🇪🇪Эстония [До 21 Июня] ⚡⚡
-vless://96b0dedc-a7ac-4bd3-a286-fee45319b586@88.216.73.26:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=uscher30.potatosubge20.org&fp=firefox&alpn=http%2F1.1&type=tcp&headerType=none#🇺🇸 Штаты [До 21 Июня] ⚡️ (Тикток без рекламы)
-vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.31:8443?type=tcp&security=tls&sni=ams1.fromblancwithlove.com&fp=chrome&allowInsecure=0#🇸🇪 Швеция
 vless://fdba43e2-9dc3-4c3e-a890-08ab21e60081@152.233.54.86:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=auto.malina24.xyz&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=abcd0000#🇩🇪 Германия
 vless://e52fedb7-befe-4615-a53e-89d446f74bf4@66.81.247.209:8880?type=ws&host=cnd.finland2.nexusdataroute.com&path=/cdn/assets/stream&security=none#🇷🇺 Россия (Для ютуба без рекламы)
-vless://26ca9191-5a90-40e5-9f03-c9181bcefb21@217.198.6.147:8443?type=&mode=gun&serviceName=&security=&fp=chrome&sni=cdn649.spliceflowtech.com&pbk=Nz3CWjT64ObxtpQdgmq5XpYmwKStIi1n9V-w88Y6uBg&sid=1f9a3e7b5c0d4826#⬇️ Обходники белых списков
-vless://51af2ae4-b8db-4026-8d82-7801f3cbd3c3@213.219.212.61:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=qq&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#🇷🇺 Обходник БС 🏳️ #1
-vless://26ca9191-5a90-40e5-9f03-c9181bcefb21@217.198.6.147:8443?type=grpc&mode=gun&serviceName=&security=reality&fp=firefox&sni=cdn649.spliceflowtech.com&pbk=Nz3CWjT64ObxtpQdgmq5XpYmwKStIi1n9V-w88Y6uBg&sid=1f9a3e7b5c0d4826#🇷🇺 Обходник БС 🏳️ #2
