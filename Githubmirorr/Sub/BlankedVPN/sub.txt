@@ -7,5 +7,4 @@ vless://96b0dedc-a7ac-4bd3-a286-fee45319b586@5.175.178.81:443?encryption=none&fl
 vless://96b0dedc-a7ac-4bd3-a286-fee45319b586@88.216.73.26:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=uscher30.potatosubge20.org&fp=firefox&alpn=http%2F1.1&type=tcp&headerType=none#🇺🇸 Штаты [До 21 Июня] ⚡️ (Тикток без рекламы)
 vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.31:8443?type=tcp&security=tls&sni=ams1.fromblancwithlove.com&fp=chrome&allowInsecure=0#🇸🇪 Швеция
 vless://fdba43e2-9dc3-4c3e-a890-08ab21e60081@152.233.54.86:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=auto.malina24.xyz&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=abcd0000#🇩🇪 Германия
-vless://054f96e8-6968-4a2a-b7d5-baa7a27abc56@94.125.103.28:2761?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=nl.xanka.best&pbk=d9ncsYIjJIiCaqLszDyLhZoZ9-XMYYhBrlHUyuHFxQo&sid=a4e1fd84#🇳🇱 Нидерланды (Тикток без рекламы) ⚡
 vless://96b0dedc-a7ac-4bd3-a286-fee45319b586@5.83.129.124:443?type=tcp&security=tls&sni=50gport3.potatosubge20.org&fp=firefox&alpn=http/1.1&flow=xtls-rprx-vision#🇷🇺 Россия (Ютуб без рекламы)
