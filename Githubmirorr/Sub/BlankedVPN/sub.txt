@@ -3,5 +3,5 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
-vless://fdba43e2-9dc3-4c3e-a890-08ab21e60081@152.233.54.86:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=auto.malina24.xyz&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=abcd0000#🇩🇪 Германия
+vless://WANCLOUDFA-FREE@5.10.245.138:443?type=xhttp&host=erori3430330.cloudwanfaired.top&path=/api&mode=auto&extra=%257B%250A%2520%2520%2522scMaxEachPostBytes%2522%2520:%2520%25221000000%2522,%250A%2520%2520%2522xPaddingBytes%2522%2520:%2520%2522100-1000%2522%250A%257D&security=tls&sni=erori3430330.cloudwanfaired.top&alpn=h2,http/1.1&fp=chrome&allowInsecure=0#🇩🇪 Германия (✈️ Телеграмм)
 vless://e52fedb7-befe-4615-a53e-89d446f74bf4@66.81.247.209:8880?type=ws&host=cnd.finland2.nexusdataroute.com&path=/cdn/assets/stream&security=none#🇷🇺 Россия (Для ютуба без рекламы)
