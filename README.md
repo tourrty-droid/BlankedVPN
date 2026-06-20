@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Untitled189_20260618011155.png" alt="BlankedVPN" width="160" height="160">
+  <img src="https://raw.githubusercontent.com/tourrty-droid/BlankedVPN/refs/heads/main/Untitled189_20260618011155.png" alt="BlankedVPN" width="260" height="260">
   <h1>BlankedVPN</h1>
   <p>Лёгкий VPN для обхода блокировок. Без логов. С открытым кодом.</p>
 </div>
