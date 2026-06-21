@@ -5,4 +5,4 @@
 
 vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=rezerv11.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#🇩🇪 Германия
 vless://e52fedb7-befe-4615-a53e-89d446f74bf4@66.81.247.209:8880?type=ws&host=cnd.finland2.nexusdataroute.com&path=/cdn/assets/stream&security=none#🇷🇺 Россия (Для ютуба без рекламы)
-vless://51af2ae4-b8db-4026-8d82-7801f3cbd3c3@213.219.212.110:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=eh.vk.ru&pbk=AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk#🇪🇺 Авто-Выбор - AnyCast 🏳️
+vless://7f25a44d-d5bc-459b-ae0d-e9729606ba23@94.183.170.16:55443?type=xhttp&host=&path=/&mode=auto&security=reality&fp=firefox&sni=yandex.ru&pbk=i3ZLu0BrMnsEuDUgWoceRnaYMzRVphJE0CiPXmEhE3c&sid=63a9b4c563de9906&spx=/#🇪🇺 Авто-Выбор 🏳️ AnyCast IP
