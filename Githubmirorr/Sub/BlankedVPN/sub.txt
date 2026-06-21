@@ -3,4 +3,5 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
+vless://e52fedb7-befe-4615-a53e-89d446f74bf4@194.67.102.65:8880?type=ws&host=cnd.germany.nexusdataroute.com&path=/cdn/assets/stream&security=none#🇩🇪🏳️ Германия | CIDR 🏳️
 vless://f9255507-1b65-433f-bfd8-193b35e068e2@185.193.28.140:80?flow=&type=ws&host=s5.868001.xyz&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%20@WangCai2&security=none#🇷🇺 Россия | Rostelekom
