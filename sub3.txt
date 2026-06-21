@@ -1,5 +1,5 @@
 # BlankedVPN
-# 2026-06-21 20:09:57.116374
+# 2026-06-21 21:50:17.171653
 
 vless://0a6dbfe3-9d80-4281-be16-e87139563aff@aust1.astra-vpn.com:443?type=tcp&security=reality&sni=yandex.ru&fp=firefox&pbk=zjv3djnsCKDqP7zZFIrJ9ImzgdPE3zFMCYrOvdWqkEE&sid=149752e367ffc637#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%7C%20%F0%9F%8C%90%20%5BSNI-RU%5D%20yandex.ru
 vless://7f25a44d-d5bc-459b-ae0d-e9729606ba23@89.125.169.89:44333?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=i3ZLu0BrMnsEuDUgWoceRnaYMzRVphJE0CiPXmEhE3c&security=reality&sid=63a9b4c563de9906&sni=yandex.ru&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5BSNI-RU%5D%20yandex.ru
