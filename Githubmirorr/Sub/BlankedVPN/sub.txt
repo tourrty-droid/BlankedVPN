@@ -3,5 +3,5 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
-vless://f9255507-1b65-433f-bfd8-193b35e068e2@154.197.64.140:80?flow=&type=ws&host=s5.868001.xyz&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%20@WangCai2&security=none#🇩🇪 Германия
+vless://546d7622-cdf6-4d39-af34-9060c5720f57@89.125.20.106:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=auto.malina24.xyz&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=abcd#🇩🇪 Германия
 vless://f9255507-1b65-433f-bfd8-193b35e068e2@185.193.28.140:80?flow=&type=ws&host=s5.868001.xyz&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%20@WangCai2&security=none#🇷🇺 Россия | Rostelekom
