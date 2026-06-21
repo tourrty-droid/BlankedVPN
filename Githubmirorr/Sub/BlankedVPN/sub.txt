@@ -3,6 +3,6 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
-vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@158.160.198.162:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=rezerv11.yunus.guru&pbk=6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE&sid=34256b39b4ebb864#🇩🇪 Германия
+vless://df715bf7-d073-435b-94fa-d5aa4dbbd84c@94.159.103.5:27189?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=www.vk.com&pbk=QhzHhG3TRaDF3MNj1pBGT1rSPCfRJUfrzc5rBUmuRQ4&sid=65#🇩🇪 Германия
 vless://e52fedb7-befe-4615-a53e-89d446f74bf4@66.81.247.209:8880?type=ws&host=cnd.finland2.nexusdataroute.com&path=/cdn/assets/stream&security=none#🇷🇺 Россия (Для ютуба без рекламы)
-vless://7f25a44d-d5bc-459b-ae0d-e9729606ba23@94.183.170.16:55443?type=xhttp&host=&path=/&mode=auto&security=reality&fp=firefox&sni=yandex.ru&pbk=i3ZLu0BrMnsEuDUgWoceRnaYMzRVphJE0CiPXmEhE3c&sid=63a9b4c563de9906&spx=/#🇪🇺 Авто-Выбор 🏳️ AnyCast IP
+vless://7f25a44d-d5bc-459b-ae0d-e9729606ba23@94.183.170.16:55443?type=xhttp&host=&path=/&mode=auto&security=reality&fp=firefox&sni=yandex.ru&pbk=i3ZLu0BrMnsEuDUgWoceRnaYMzRVphJE0CiPXmEhE3c&sid=63a9b4c563de9906&spx=/#🇪🇺 Авто-Выбор - AnyCast IP
