@@ -4,4 +4,4 @@
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
 vless://8ca5cbd3-ec16-4728-bedc-2bc0d82f0922@217.217.247.250:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=enterprisekitten.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2#🇩🇪 Германия
-vless://e52fedb7-befe-4615-a53e-89d446f74bf4@66.81.247.209:8880?type=ws&host=cnd.finland2.nexusdataroute.com&path=/cdn/assets/stream&security=none#🇷🇺 Россия (Для ютуба без рекламы)
+vless://f9a32cc6-7dab-4d36-a839-ea276777dc30@194.28.225.2:443?type=ws&host=dsvh58bp.v6d30b.workers.dev&path=/?ed%3D2560&security=tls&sni=dsvh58bp.v6d30b.workers.dev&fp=chrome&allowInsecure=0#🇷🇺 Россия (Для Ютуба без рекламы)
