@@ -4,5 +4,6 @@
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
 vless://c0fb5126-93f2-45dd-98c7-a1501b93d6db@2.59.80.65:443?security=reality&encryption=none&pbk=rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI&headerType=none&fp=firefox&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=rbc.ru&sid=caa0a516476ad539#🇷🇺 Россия (Для Ютуба без рекламы)
+vless://f9255507-1b65-433f-bfd8-193b35e068e2@164.38.155.140:80?path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2&security=none&encryption=none&host=s5.868001.xyz&type=ws#🇷🇺 Россия (Резервный)
 vless://4169ca30-91e6-4a55-9174-85c08ec55626@138.124.20.201:443?mode=gun&security=reality&encryption=none&authority=&pbk=e2CrnP8Xz_sXgy9-0U7BWzyFt84tG6xl6ZSNk991myw&fp=chrome&allowinsecure=0&type=grpc&serviceName=grpc&sni=google.com#🇵🇱 Курвальша
 vless://0afe8434-7b68-48a3-a96f-509f7af15e5e@193.233.89.194:443?security=reality&encryption=none&pbk=u1QltI2SnUX48F-cqulaVojcSLadC9I1Vt8gOqnFTB4&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ru-streaming.barryvpn.com&sid=0123456789abcdef#🇩🇪 Германия
