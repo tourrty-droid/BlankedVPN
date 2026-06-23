@@ -3,4 +3,5 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
-vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.31:8443?type=tcp&headerType=none&security=tls&sni=ams1.fromblancwithlove.com&fp=firefox&allowInsecure=0#🇩🇪 Германия
+vless://394f6981-a782-4779-9a85-e6cf22935d93@45.159.12.31:8443?type=tcp&headerType=none&security=tls&sni=ams1.fromblancwithlove.com&fp=firefox&allowInsecure=0#🇩🇪 Германия - VPN
+vless://e18dfd9f-15e3-41c0-b779-20b9d68a527e@185.147.27.105:80?path=%2F&security=none&encryption=none&type=ws#🇫🇮 Финляндия - VPN
