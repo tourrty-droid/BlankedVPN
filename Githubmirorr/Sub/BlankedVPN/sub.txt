@@ -4,5 +4,4 @@
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
 
-vless://52faee73-e0fe-4661-992d-67259257170f@uk-gthost-01.com:8443?security=reality&encryption=none&pbk=dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8&headerType=none&fp=firefox&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=storage.yandex.net&sid=ea10cd5686751ec5# BlankedVPN 🏳️
-vless://dbfa97b8-f4fb-4687-96dc-a5a2aebfae11@est01.port-server.online:443?security=reality&encryption=none&pbk=aNbj5QBUxwKIRnh9Z_0ZA-FmDELZKLb1YMUpId3OCU8&headerType=none&fp=firefox&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=est01.port-server.online&sid=9902cda1645757ea# BlankedVPN #2 🏳️
+vless://210637d7-f61c-4d6e-8633-20e7fbe3a215@3.71.19.240:2053?security=reality&encryption=none&pbk=M3ihD-vo-WR0kSek1xhb5vUyWYk-vOS5ZgP083XMMDc&headerType=none&fp=chrome&spx=%2Fv2raybazi&allowinsecure=0&type=tcp&sni=www.amazon.com&sid=77b60000#BlankedVPN
