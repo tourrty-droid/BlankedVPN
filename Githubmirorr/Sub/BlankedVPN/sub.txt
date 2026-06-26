@@ -6,3 +6,4 @@
 
 vless://5fdf2809-9b94-0020-bd50-81027af9cef4@82.202.136.255:443?flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=cascad.anotherboring.top&pbk=ho7BivYLLBlfgtWEaRqF_g6OOHiKINEyAFDm6wbPDXI&sid=b8357afdce856d30#BlankedVPN
 vless://295d4d20-c332-4b9a-9f3c-741f44c91f89@194.55.239.246:443?type=grpc&mode=gun&serviceName=grpc&security=reality&fp=chrome&sni=yandex.tr&pbk=ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A&sid=6ba85179e30d4fc2&spx=/#BlankedVPN
+hysteria2://00dcd873-9211-4d61-ad35-87999906e5c8@185.75.135.220:443?fm=%257B%250A%2520%2520%2522quicParams%2522%2520:%2520%257B%250A%2520%2520%2520%2520%2522congestion%2522%2520:%2520%2522brutal%2522%250A%2520%2520%257D%250A%257D&type=hysteria&security=tls&sni=fta.fontanvpn.com&alpn=h3&allowInsecure=0#BlankedVPN
