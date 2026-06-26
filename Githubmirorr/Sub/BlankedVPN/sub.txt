@@ -4,4 +4,4 @@
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
 
-vless://210637d7-f61c-4d6e-8633-20e7fbe3a215@3.71.19.240:2053?security=reality&encryption=none&pbk=M3ihD-vo-WR0kSek1xhb5vUyWYk-vOS5ZgP083XMMDc&headerType=none&fp=chrome&spx=%2Fv2raybazi&allowinsecure=0&type=tcp&sni=www.amazon.com&sid=77b60000#BlankedVPN
+vless://5fdf2809-9b94-0020-bd50-81027af9cef4@82.202.136.255:443?flow=xtls-rprx-vision&type=tcp&security=reality&fp=qq&sni=cascad.anotherboring.top&pbk=ho7BivYLLBlfgtWEaRqF_g6OOHiKINEyAFDm6wbPDXI&sid=b8357afdce856d30#BlankedVPN
