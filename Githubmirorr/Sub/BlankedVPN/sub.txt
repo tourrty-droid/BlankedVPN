@@ -4,6 +4,4 @@
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
 
-vless://ddcf56cf-d20d-4aa4-9a68-608209c26d2f@5.255.116.197:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=nl.boxypn.com&pbk=JGtZTmOKU2e9kUWZSeqganO0CIwVgC7Bl-FDSYmh4AI#BlankedVPN
-vless://ddcf56cf-d20d-4aa4-9a68-608209c26d2f@207.2.120.88:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=sw-new.boxypn.com&pbk=SUTv6bVuL6TnWcPGf03-1QFmJ8Q_ISoA1WIajvct32M#BlankedVPN
-hysteria2://00dcd873-9211-4d61-ad35-87999906e5c8@185.75.135.220:443?fm=%257B%250A%2520%2520%2522quicParams%2522%2520:%2520%257B%250A%2520%2520%2520%2520%2522congestion%2522%2520:%2520%2522brutal%2522%250A%2520%2520%257D%250A%257D&type=hysteria&security=tls&sni=fta.fontanvpn.com&alpn=h3&allowInsecure=0#BlankedVPN (Иногда работает)
+hysteria2://00dcd873-9211-4d61-ad35-87999906e5c8@185.75.135.220:443?fm=%257B%250A%2520%2520%2522quicParams%2522%2520:%2520%257B%250A%2520%2520%2520%2520%2522congestion%2522%2520:%2520%2522brutal%2522%250A%2520%2520%257D%250A%257D&type=hysteria&security=tls&sni=fta.fontanvpn.com&alpn=h3&allowInsecure=0#BlankedVPN | CIDR
