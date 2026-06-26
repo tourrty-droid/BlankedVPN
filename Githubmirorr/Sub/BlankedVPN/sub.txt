@@ -1,8 +1,7 @@
 #profile-title: BlankedVPN
 #profile-update-interval: 2
-#announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
+#announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄 ⚠️ Обратите внимание: Утром сервера могут не работать. Это нормально.
 #subscription-userinfo: upload=0; download=9981386900000; total=0; expire=253402214400
 
-
+vless://ae0959f1-f25a-43d0-9c88-be1672641fc3@37.139.34.124:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=ads.x5.ru&pbk=FOVEr4SzLDQGUn1yY8-Y_C5mIV6WBJL2sTZKQvK83z4#BlankedVPN | CIDR
 hysteria2://00dcd873-9211-4d61-ad35-87999906e5c8@185.75.135.220:443?fm=%257B%250A%2520%2520%2522quicParams%2522%2520:%2520%257B%250A%2520%2520%2520%2520%2522congestion%2522%2520:%2520%2522brutal%2522%250A%2520%2520%257D%250A%257D&type=hysteria&security=tls&sni=fta.fontanvpn.com&alpn=h3&allowInsecure=0#BlankedVPN | CIDR
-vless://97d290a0-acec-4aae-b8cf-c7111a5a6397@94.26.249.65:9830?flow=&type=grpc&mode=gun&serviceName=grpc-tunnel&security=reality&fp=qq&sni=dl.google.com&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU#BlankedVPN | WhiteList🏳️
