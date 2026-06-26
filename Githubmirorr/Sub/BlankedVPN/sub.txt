@@ -5,3 +5,4 @@
 
 
 hysteria2://00dcd873-9211-4d61-ad35-87999906e5c8@185.75.135.220:443?fm=%257B%250A%2520%2520%2522quicParams%2522%2520:%2520%257B%250A%2520%2520%2520%2520%2522congestion%2522%2520:%2520%2522brutal%2522%250A%2520%2520%257D%250A%257D&type=hysteria&security=tls&sni=fta.fontanvpn.com&alpn=h3&allowInsecure=0#BlankedVPN | CIDR
+vless://97d290a0-acec-4aae-b8cf-c7111a5a6397@94.26.249.65:9830?flow=&type=grpc&mode=gun&serviceName=grpc-tunnel&security=reality&fp=qq&sni=dl.google.com&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU#BlankedVPN | WhiteList🏳️
