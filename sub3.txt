@@ -1,5 +1,11 @@
 # BlankedVPN
-# 2026-06-27 11:09:02.097390
+# 2026-06-27 12:49:23.077938
+
+# profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
+# profile-update-interval: 1
+# Date/Time: 2026-06-27 / 13:35 (Moscow)
+# Количество: 11
+# For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 
 vless://d9228d5d-618d-4771-835f-96b4ebdd38cd@212.116.115.209:2096?encryption=none&type=grpc&security=reality&mode=gun&serviceName=vless-grpc-reality&fp=chrome&sni=id.vk.com&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%5BSNI-RU%5D%20id.vk.com
 vless://d9228d5d-618d-4771-835f-96b4ebdd38cd@212.116.115.209:2096?fp=firefox&mode=gun&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&serviceName=vless-grpc-reality&sni=id.vk.com&type=grpc#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%5BSNI-RU%5D%20id.vk.com
@@ -12,9 +18,3 @@ vless://8553ae90-2a81-493a-b050-8ee79c8dbe4c@85.158.109.113:443?type=xhttp&secur
 vless://c28f3222-4f01-493c-a38f-0f1b34e62ea3@fire.jykvpn.com:2048?encryption=none&type=ws&path=%2F&host=ads.x5.ru#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%AC%F0%9F%87%A7%20%5BSNI-RU%5D%20ads.x5.ru
 vless://c28f3222-4f01-493c-a38f-0f1b34e62ea3@fire.jykvpn.com:2048?type=ws&security=none&fp=firefox&path=/&host=ads.x5.ru#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%AC%F0%9F%87%A7%20%5BSNI-RU%5D%20ads.x5.ru
 trojan://7vTo2hncEGvxPtds-p7tvWZZ4GD0bFRJ@194.87.222.7:4443?security=reality&pbk=VDBXpRl5J_1j2DSVW7_KfReAgv3j6Uuzy7wfXcHhgwA&headerType=none&fp=chrome&type=tcp&sni=travel.yandex.ru&sid=ab#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%5BSNI-RU%5D%20travel.yandex.ru
-
-# profile-title: 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
-# profile-update-interval: 1
-# Date/Time: 2026-06-27 / 13:35 (Moscow)
-# Количество: 11
-# For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
