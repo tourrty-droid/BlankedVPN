@@ -3,7 +3,7 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=0; total=18446744073709551615; expire=253402214400
 
-vless://05a01432-0302-439f-a88d-8442cd27b7d5@gt-ch-01.live:8443?security=reality&encryption=none&pbk=8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=storage.yandex.net&sid=445ab326fc7c90ac#🇩🇪 Германия | [*CIDR]
+vless://9d748910-8306-411a-9b2e-11f0a2a4486f@78.159.250.32:1111?security=reality&encryption=none&pbk=YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA&headerType=none&fp=firefox&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru#🇩🇪 Германия | [*CIDR]
 vless://33e9f342-d9c0-0006-bdd3-4b1ffe37042d@178.248.238.85:17443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=firefox&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=rutube.ru&sid=43dcff53849b81e6#🇱🇻 Латвия | [*CIDR]
 vless://694eadbe-d61f-4f80-957b-d55d990e8ffa@84.201.178.0:443?security=reality&encryption=none&pbk=ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ&headerType=none&fp=firefox&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=2bb326a463fd1937#🇪🇺 Авто-Подбор | 🌐 Anycast-IP | 🇳🇱 🇷🇺
 hysteria2://00dcd873-9211-4d61-ad35-87999906e5c8@185.75.135.220:443?security=tls&fm=%7B%7D&allowinsecure=0&sni=fta.fontanvpn.com#🇫🇮 Финляндия | hs2 | [*CIDR]
