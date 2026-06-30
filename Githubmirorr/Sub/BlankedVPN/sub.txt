@@ -1,0 +1,10 @@
+#profile-title: BlankedVPN
+#profile-update-interval: 1
+#announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
+#subscription-userinfo: upload=0; download=0; total=0; expire=253402214400
+
+vless://214906b4-96fd-48f6-977b-a26a89b7b973@81.163.23.115:2097?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=firefox&sni=gazeta-business.ru&pbk=DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM&sid=c05d4c564d2bcd#BlankedVPN | [*CIDR]
+vless://214906b4-96fd-48f6-977b-a26a89b7b973@81.163.23.115:2097?encryption=none&type=grpc&security=reality&mode=gun&serviceName=grpc&fp=firefox&sni=gazeta-business.ru&pbk=DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM&sid=28a059440d3d5ba1#BlankedVPN | [*CIDR]
+vless://214906b4-96fd-48f6-977b-a26a89b7b973@81.94.148.75:8443?encryption=none&type=grpc&security=reality&mode=gun&serviceName=ads.x5.ru&fp=chrome&sni=ads.x5.ru&pbk=DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM&sid=c05d4c564d2bcd#BlankedVPN | [*CIDR]
+hysteria2://00dcd873-9211-4d61-ad35-87999906e5c8@185.75.135.220:443?__rand=bb37afd7&descriptions=341&descriptions=_4bf2f6&seq=you_are_beautiful5049&sni=fta.fontanvpn.com&freeinternet=kizyak_vpn1782605927379&descriptions=347#BlankedVPN | [*CIDR]
+hysteria2://00dcd873-9211-4d61-ad35-87999906e5c8@185.75.135.220:443?descriptions=%D0%BB%D1%8E%D0%B1%D0%B8_%D1%81%D0%B5%D0%B1%D1%8F4bf2f6&descriptions=%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%83%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D1%83341&seq=you_are_beautiful5049&encryption=none&sni=fta.fontanvpn.com&insecure=0&headerType=none&__rand=bb37afd7#BlankedVPN | [*CIDR]
