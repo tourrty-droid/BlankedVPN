@@ -3,10 +3,4 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=0; total=18446744073709551615; expire=253402214400
 
-vless://9d748910-8306-411a-9b2e-11f0a2a4486f@78.159.250.32:1111?security=reality&encryption=none&pbk=YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA&headerType=none&fp=firefox&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru#🇩🇪 Германия | [*CIDR]
-vless://33e9f342-d9c0-0006-bdd3-4b1ffe37042d@178.248.238.85:17443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=firefox&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=rutube.ru&sid=43dcff53849b81e6#🇱🇻 Латвия | [*CIDR]
-vless://694eadbe-d61f-4f80-957b-d55d990e8ffa@84.201.178.0:443?security=reality&encryption=none&pbk=ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ&headerType=none&fp=firefox&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=2bb326a463fd1937#🇪🇺 Авто-Подбор | 🌐 Anycast-IP | 🇳🇱 🇷🇺
-hysteria2://00dcd873-9211-4d61-ad35-87999906e5c8@185.75.135.220:443?security=tls&fm=%7B%7D&allowinsecure=0&sni=fta.fontanvpn.com#🇫🇮 Финляндия | hs2 | [*CIDR]
-hysteria2://c059a786-3a03-4300-9ace-4f9cda0f360c@wlte.nimarko.org:8465?security=tls&fm=%7B%7D&allowinsecure=0&sni=itit.nimarko.org#🇮🇹 Италия | hs2 [*CIDR]
-hysteria2://c059a786-3a03-4300-9ace-4f9cda0f360c@wlte3.nimarko.org:8444?security=tls&fm=%7B%7D&allowinsecure=0&sni=testing8.nimarko.org#🇺🇸 США | hs2 | [*CIDR]
-hysteria2://c059a786-3a03-4300-9ace-4f9cda0f360c@wlte8.nimarko.org:8450?security=tls&fm=%7B%7D&allowinsecure=0&sni=testing6.nimarko.org#🇳🇱 Нидерланды | hs2 | [*CIDR]
+vless://b2b8bd00-2e42-4875-8d7b-bcf97093a1d4@95.163.211.206:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=at.sellflow.org&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#🌐 Anycast-IP | [*CIDR] | BlankedVPN 
