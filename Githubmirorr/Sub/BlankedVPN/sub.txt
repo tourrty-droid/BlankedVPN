@@ -3,5 +3,5 @@
 #announce: Если у вас возникли проблемы с работой сервиса - выключите впн и обновите подписку нажав на кнопку 🔄
 #subscription-userinfo: upload=0; download=0; total=18446744073709551615; expire=253402214400
 
-vless://ad0375b5-700c-47a5-9aca-c767f5792a49@81.94.159.62:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=ads.x5.ru&pbk=pLLmFfvnn2I1Mvo8WLLrHIKhjtSfXS1NqCveJb4v9w0&sid=7c768f2d9dd4c39f#🌐 Anycast-IP | [*CIDR] | BlankedVPN 
-hysteria2://c059a786-3a03-4300-9ace-4f9cda0f360c@wlte8.nimarko.org:8450?fm=%257B%250A%2520%2520%2522quicParams%2522%2520:%2520%257B%250A%2520%2520%2520%2520%2522congestion%2522%2520:%2520%2522brutal%2522%250A%2520%2520%257D%250A%257D&type=hysteria&security=tls&sni=testing6.nimarko.org&alpn=h3&allowInsecure=0#🌐 Нидерланды | hs2 | BlankedVPN
+vless://a1fbffe9-8e5a-5a0e-9333-045d32eccd59@denmark.cloudpath.live:443?type=tcp&headerType=none&security=reality&fp=chrome&sni=microsoft.com&pbk=8H8GZYml4FGVF9EcnZsUTOt0lFiIh20vS9TnX4Dn-z8&sid=2721a041#🌐 Anycast-IP | [*CIDR] | BlankedVPN 
+hysteria2://0047a8bc-0025-4d45-899b-c75c669f3ede@888275.cherry-nll-01.live:8449?fm=%257B%250A%2520%2520%2522quicParams%2522%2520:%2520%257B%250A%2520%2520%2520%2520%2522congestion%2522%2520:%2520%2522brutal%2522%250A%2520%2520%257D%250A%257D&type=hysteria&security=tls&sni=sni.nl01-cherry.online&alpn=h3&allowInsecure=0#🌐 Нидерланды | hs2 | BlankedVPN
